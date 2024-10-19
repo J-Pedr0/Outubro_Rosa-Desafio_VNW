@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+//--------------------GLOBAL--------------------
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  color: #e4eef1;
+  list-style: none;
+  text-decoration: none;
+}
+
+//--------------------HEADER--------------------
+
+header {
+  //   border: solid 2px yellowgreen;
+  height: 16.56dvh;
+  background-color: #ff69b4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  nav {
+    // border: solid 2px red;
+    width: 36.59dvw;
+    height: 5.47dvh;
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      list-style: none;
+      font-size: 1.5dvw;
+    }
+  }
+}
+
+.CaixaLogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h1 {
+    font-size: 1.7dvw;
+    font-weight: 400;
+  }
+}
+
+//---------------------MAIN---------------------
+
+main {
+  // border: solid 2px blueviolet;
+  height: 149.58dvh;
+  font-size: 25px;
+}
+.FirstArticle {
+  height: 52.95dvh;
+  background-color: #ffd9ec;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  p {
+    // border: solid 2px brown;
+    width: 39.44dvw;
+    height: 37.22dvh;
+    color: #000000;
+  }
+}
+
+.SecondArticle {
+  height: 36.8dvh;
+  background-color: #ff69b4;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  p {
+    // border: solid 2px brown;
+    width: 39.44dvw;
+    height: 37.22dvh;
+    color: #e4eef1;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.ThirdArticle {
+  // border: solid 2px red;
+  height: 59.82dvh;
+  background-color: #ffd9ec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  ul {
+    // border: solid 2px blue;
+    width: 74.3dvw;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+}
+
+//--------------------FOOTER--------------------
+
+footer {
+  // border: solid 2px blue;
+  height: 20.07dvh;
+  background-color: #ff69b4;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  article {
+    // border: solid 2px blue;
+    width: 74.57dvw;
+    height: 16.56dvh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .redes {
+      // border: solid 2px blue;
+      width: 15.77dvw;
+      height: 9.4dvh;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    div {
+      // border: solid 2px red;
+      width: 34.91dvw;
+      height: 16.56dvh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+  }
+}

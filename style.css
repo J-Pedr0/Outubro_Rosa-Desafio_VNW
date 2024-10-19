@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  color: #e4eef1;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  height: 16.56dvh;
+  background-color: #ff69b4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header nav {
+  width: 36.59dvw;
+  height: 5.47dvh;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-size: 1.5dvw;
+}
+
+.CaixaLogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.CaixaLogo h1 {
+  font-size: 1.7dvw;
+  font-weight: 400;
+}
+
+main {
+  height: 149.58dvh;
+  font-size: 25px;
+}
+
+.FirstArticle {
+  height: 52.95dvh;
+  background-color: #ffd9ec;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.FirstArticle p {
+  width: 39.44dvw;
+  height: 37.22dvh;
+  color: #000000;
+}
+
+.SecondArticle {
+  height: 36.8dvh;
+  background-color: #ff69b4;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.SecondArticle p {
+  width: 39.44dvw;
+  height: 37.22dvh;
+  color: #e4eef1;
+  display: flex;
+  align-items: center;
+}
+
+.ThirdArticle {
+  height: 59.82dvh;
+  background-color: #ffd9ec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ThirdArticle ul {
+  width: 74.3dvw;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+footer {
+  height: 20.07dvh;
+  background-color: #ff69b4;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer article {
+  width: 74.57dvw;
+  height: 16.56dvh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer article .redes {
+  width: 15.77dvw;
+  height: 9.4dvh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer article div {
+  width: 34.91dvw;
+  height: 16.56dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
