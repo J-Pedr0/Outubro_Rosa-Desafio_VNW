@@ -16,7 +16,7 @@
 
 header {
   //   border: solid 2px yellowgreen;
-  height: 16.56dvh;
+  height: 16.56vh;
   background-color: #ff69b4;
   display: flex;
   align-items: center;
@@ -24,15 +24,15 @@ header {
 
   nav {
     // border: solid 2px red;
-    width: 36.59dvw;
-    height: 5.47dvh;
+    width: 36.59vw;
+    height: 5.47vh;
 
     ul {
       display: flex;
       justify-content: space-between;
       align-items: center;
       list-style: none;
-      font-size: 1.5dvw;
+      font-size: 1.7vw;
     }
   }
 }
@@ -43,20 +43,23 @@ header {
   align-items: center;
 
   h1 {
-    font-size: 1.7dvw;
+    font-size: 1.7vw;
     font-weight: 400;
   }
+  // img {
+  // }
 }
 
 //---------------------MAIN---------------------
 
 main {
   // border: solid 2px blueviolet;
-  height: 149.58dvh;
-  font-size: 25px;
+  height: 149.58vh;
+  font-size: 1.5vw;
 }
 .FirstArticle {
-  height: 52.95dvh;
+  // border: solid 2px blueviolet;
+  height: 52.95vh;
   background-color: #ffd9ec;
   display: flex;
   align-items: center;
@@ -64,14 +67,27 @@ main {
 
   p {
     // border: solid 2px brown;
-    width: 39.44dvw;
-    height: 37.22dvh;
+    width: 39.44vw;
+    height: 37.22vh;
     color: #000000;
+  }
+
+  img {
+    width: 23vw;
+    @media (max-width: 1500px) {
+      width: 21vw;
+    }
+    @media (max-width: 1300px) {
+      width: 25vw;
+    }
+    @media (max-width: 1100px) {
+      width: 27vw;
+    }
   }
 }
 
 .SecondArticle {
-  height: 36.8dvh;
+  height: 36.8vh;
   background-color: #ff69b4;
   display: flex;
   align-items: center;
@@ -79,17 +95,30 @@ main {
 
   p {
     // border: solid 2px brown;
-    width: 39.44dvw;
-    height: 37.22dvh;
+    width: 39.44vw;
+    height: 37.22vh;
     color: #e4eef1;
     display: flex;
     align-items: center;
+  }
+
+  img {
+    width: 23vw;
+    @media (max-width: 1500px) {
+      width: 21vw;
+    }
+    @media (max-width: 1300px) {
+      width: 25vw;
+    }
+    @media (max-width: 1100px) {
+      width: 27vw;
+    }
   }
 }
 
 .ThirdArticle {
   // border: solid 2px red;
-  height: 59.82dvh;
+  height: 59.82vh;
   background-color: #ffd9ec;
   display: flex;
   align-items: center;
@@ -97,7 +126,7 @@ main {
 
   ul {
     // border: solid 2px blue;
-    width: 74.3dvw;
+    width: 74.3vw;
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -108,7 +137,7 @@ main {
 
 footer {
   // border: solid 2px blue;
-  height: 20.07dvh;
+  height: 20.07vh;
   background-color: #ff69b4;
   font-size: 20px;
   display: flex;
@@ -117,30 +146,30 @@ footer {
 
   article {
     // border: solid 2px blue;
-    width: 74.57dvw;
-    height: 16.56dvh;
+    width: 74.57vw;
+    height: 16.56vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    .redes {
-      // border: solid 2px blue;
-      width: 15.77dvw;
-      height: 9.4dvh;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-
     div {
       // border: solid 2px red;
-      width: 34.91dvw;
-      height: 16.56dvh;
+      width: 34.91vw;
+      height: 16.56vh;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       text-align: center;
     }
+  }
+
+  .redes {
+    // border: solid 2px blue;
+    width: 15.77vw;
+    height: 9.4vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }
